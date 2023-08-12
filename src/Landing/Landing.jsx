@@ -18,7 +18,7 @@ const Landing = () => {
           </Link>
         </div>
 
-        <img className="animal-img" src={image} alt="animal" />
+        <img className="animal-img" src={require(image)} alt="animal" />
       </div>
     </>
   );
