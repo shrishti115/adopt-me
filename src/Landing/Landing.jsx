@@ -1,5 +1,6 @@
 import "./langing.css";
 import { Link } from "react-router-dom";
+import image from "./animal.jpeg";
 
 const Landing = () => {
   return (
@@ -17,11 +18,7 @@ const Landing = () => {
           </Link>
         </div>
 
-        <img
-          className="animal-img"
-          src="src\Landing\animal.jpeg"
-          alt="animal"
-        />
+        <img className="animal-img" src={image} alt="animal" />
       </div>
     </>
   );
