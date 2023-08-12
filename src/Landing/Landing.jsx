@@ -17,7 +17,11 @@ const Landing = () => {
           </Link>
         </div>
 
-        <img className="animal-img" src=" ./Landing/animal.jpeg" alt="animal" />
+        <img
+          className="animal-img"
+          src="src\Landing\animal.jpeg"
+          alt="animal"
+        />
       </div>
     </>
   );
